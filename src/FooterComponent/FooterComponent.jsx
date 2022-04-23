@@ -1,26 +1,66 @@
-/* ********FOOTER********* */
+import { Fragment } from "react";
 
-footer{
-    height: 40rem;
-    background-color: aquamarine;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+
+const FooterComponent = () => {
+    return (
+
+        <Fragment>
+            <footer>
+                <div class="container-footer">
+                    <div class="logo-footer">
+                        <img class="menu-logo" src="./images/logo.svg" alt="" />
+
+                    </div>
+
+                    <div>
+                        <div class="footer-card">
+                            <div class="footer-icon">
+                                {/* <img src="./images/icon-location.svg" alt=""> */}
+                            </div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
+                                aspernatur distinctio harum nam et consequatur beatae veniam mollitia
+                                enim repudiandae!
+                            </p>
+                        </div>
+                        <div class="footer-card">
+                            <div class="footer-icon">
+                                {/* <img src="./images/icon-location.svg" alt=""> */}
+                            </div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
+                                aspernatur distinctio harum nam et consequatur beatae veniam mollitia
+                                enim repudiandae!
+                            </p>
+                        </div>
+                        <div class="footer-card">
+                            <div class="footer-icon">
+                                {/* <img src="./images/icon-location.svg" alt=""> */}
+                            </div>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
+                                aspernatur distinctio harum nam et consequatur beatae veniam mollitia
+                                enim repudiandae!
+                            </p>
+                        </div>
+                        <div>
+                            <p>About Us</p>
+                            <p>Jobs</p>
+                            <p>Press</p>
+                            <p>Blog</p>
+                        </div>
+                        <div>
+                            <p>Contact Us</p>
+                            <p>Terms</p>
+                            <p>Privacy</p>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+        </Fragment>
+
+    );
 }
-.footer-card{
-    height: 3rem;
-    background-color: blue;
-    display: grid;
-    grid-template-columns: 10% 90%;
-}
-.container-footer{
-    height: 100%;
-    background-color: antiquewhite;
-    width: 90%;
-    display: grid;
-    grid-template-columns: 40% 20% 10% 10% 20%;
-    grid-template-rows: repeat(2, 1fr);
-}
-.logo-footer{
-    grid-column: 1/6;
-}
+
+export default FooterComponent;

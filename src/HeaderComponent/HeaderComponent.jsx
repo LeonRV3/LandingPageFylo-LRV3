@@ -1,5 +1,6 @@
 import './HeaderComponent.css'
 import { Fragment } from "react";
+import {ReactComponent as LogoSvg} from '../images/logo.svg'; 
 
 
 const HeaderComponent = () => {
@@ -8,7 +9,7 @@ const HeaderComponent = () => {
             <header>
                 <nav>
                     <div>
-                        <svg className="menu-logo" src={require("../images/logo.svg")} alt="" />
+                        <LogoSvg></LogoSvg>
                     </div>
                     <ul className="menu-options">
                         <li>Features</li>
