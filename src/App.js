@@ -5,6 +5,7 @@ import HeaderComponent from './HeaderComponent/HeaderComponent';
 const App = () => {
   return(
     <Fragment>
+      <HeaderComponent></HeaderComponent>
     </Fragment>
   )
 }
