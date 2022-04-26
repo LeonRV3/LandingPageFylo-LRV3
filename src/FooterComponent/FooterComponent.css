@@ -11,7 +11,7 @@ footer{
 }
 .footer-card{
     height: 3rem;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: grid;
     grid-template-columns: 10% 90%;
 }
@@ -25,4 +25,20 @@ footer{
 }
 .logo-footer{
     grid-column: 1/6;
+}
+.footer-options{
+    display: grid;
+    grid-template-columns: 30% 30% 10% 10% 20%;
+}
+.footer-socialnet{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.footer-socialnet>svg{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid var(--White);
+    border-radius: 100%;
+    padding: 1rem;
 }

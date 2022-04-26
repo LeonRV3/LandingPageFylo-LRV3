@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import "./FooterComponent.css";
-import {ReactComponent as IconLogoSvg} from '../images/logo.svg'; 
-import {ReactComponent as IconLocationSvg} from '../images/icon-location.svg'; 
-import {ReactComponent as IconPhoneSvg} from '../images/icon-phone.svg'; 
-import {ReactComponent as IconEmailSvg} from '../images/icon-email.svg'; 
+import { ReactComponent as IconLogoSvg } from '../images/logo.svg';
+import { ReactComponent as IconLocationSvg } from '../images/icon-location.svg';
+import { ReactComponent as IconPhoneSvg } from '../images/icon-phone.svg';
+import { ReactComponent as IconEmailSvg } from '../images/icon-email.svg';
 
 // Icons
-import {Icon} from "@iconify/react";
+import { Icon } from "@iconify/react";
 
 
 const FooterComponent = () => {
@@ -20,7 +20,7 @@ const FooterComponent = () => {
 
                     </div>
 
-                    <div>
+                    <div className="footer-options">
                         <div>
                             <div>
                                 <IconLocationSvg></IconLocationSvg>
@@ -31,26 +31,25 @@ const FooterComponent = () => {
                                 enim repudiandae!
                             </p>
                         </div>
-                        <div class="footer-card">
-                            <div class="footer-icon">
-                                <IconPhoneSvg></IconPhoneSvg>
+                        <div className="footer-cards">
+                            <div class="footer-card">
+                                <div class="footer-icon">
+                                    <IconPhoneSvg></IconPhoneSvg>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor
+                                </p>
                             </div>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
-                                aspernatur distinctio harum nam et consequatur beatae veniam mollitia
-                                enim repudiandae!
-                            </p>
-                        </div>
-                        <div class="footer-card">
-                            <div class="footer-icon">
-                                <IconEmailSvg></IconEmailSvg>
+                            <div class="footer-card">
+                                <div class="footer-icon">
+                                    <IconEmailSvg></IconEmailSvg>
+                                </div>
+                                <p>
+                                    Lorem ipsum dolor
+                                </p>
                             </div>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
-                                aspernatur distinctio harum nam et consequatur beatae veniam mollitia
-                                enim repudiandae!
-                            </p>
                         </div>
+
                         <div>
                             <p>About Us</p>
                             <p>Jobs</p>
@@ -62,7 +61,7 @@ const FooterComponent = () => {
                             <p>Terms</p>
                             <p>Privacy</p>
                         </div>
-                        <div>
+                        <div className="footer-socialnet">
                             <Icon icon="bxl:facebook"></Icon>
                             <Icon icon="bxl:twitter"></Icon>
                             <Icon icon="bxl:instagram"></Icon>
