@@ -21,51 +21,61 @@ const FooterComponent = () => {
                     </div>
 
                     <div className="footer-options">
-                        <div>
+                        <div className="footer-info">
                             <div>
-                                <IconLocationSvg></IconLocationSvg>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
-                                aspernatur distinctio harum nam et consequatur beatae veniam mollitia
-                                enim repudiandae!
-                            </p>
-                        </div>
-                        <div className="footer-cards">
-                            <div class="footer-card">
-                                <div class="footer-icon">
-                                    <IconPhoneSvg></IconPhoneSvg>
+                                <div>
+                                    <IconLocationSvg></IconLocationSvg>
                                 </div>
                                 <p>
-                                    Lorem ipsum dolor
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores,
+                                    aspernatur distinctio harum nam et consequatur beatae veniam mollitia
+                                    enim repudiandae!
                                 </p>
                             </div>
-                            <div class="footer-card">
-                                <div class="footer-icon">
-                                    <IconEmailSvg></IconEmailSvg>
+                            <div className="footer-cards">
+                                <div class="footer-card">
+                                    <div class="footer-icon">
+                                        <IconPhoneSvg></IconPhoneSvg>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor
+                                    </p>
                                 </div>
-                                <p>
-                                    Lorem ipsum dolor
-                                </p>
+                                <div class="footer-card">
+                                    <div class="footer-icon">
+                                        <IconEmailSvg></IconEmailSvg>
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
-                        <div>
-                            <p>About Us</p>
-                            <p>Jobs</p>
-                            <p>Press</p>
-                            <p>Blog</p>
+
+
+                        <div className="footer-about">
+                            <div>
+                                <p>About Us</p>
+                                <p>Jobs</p>
+                                <p>Press</p>
+                                <p>Blog</p>
+                            </div>
+                            <div>
+                                <p>Contact Us</p>
+                                <p>Terms</p>
+                                <p>Privacy</p>
+                            </div>
+                            <div className="footer-socialnet">
+                                <Icon icon="bxl:facebook"></Icon>
+                                <Icon icon="bxl:twitter"></Icon>
+                                <Icon icon="bxl:instagram"></Icon>
+                            </div>
                         </div>
-                        <div>
-                            <p>Contact Us</p>
-                            <p>Terms</p>
-                            <p>Privacy</p>
-                        </div>
-                        <div className="footer-socialnet">
-                            <Icon icon="bxl:facebook"></Icon>
-                            <Icon icon="bxl:twitter"></Icon>
-                            <Icon icon="bxl:instagram"></Icon>
-                        </div>
+
+
+
+
                     </div>
 
                 </div>
