@@ -1,0 +1,13 @@
+main{
+    background-color: var(--DarkBlue2);
+}
+.main-icons{
+    padding-top: 9rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.main-icons>div{
+    color: var(--White);
+    text-align: center;
+}

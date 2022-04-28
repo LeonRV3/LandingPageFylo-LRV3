@@ -3,7 +3,7 @@
 footer{
     min-height: 40rem;
     /* background-color: rgb(223, 122, 122); */
-    background-color: var(--DarkBlue1);
+    background-color: var(--DarkBlue2);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -70,6 +70,7 @@ footer{
     padding-left: 3rem;
 }
 .footer-card>p{
+    margin: 0;
     margin-left: 1rem;
 }
 .footer-about>div>p{
