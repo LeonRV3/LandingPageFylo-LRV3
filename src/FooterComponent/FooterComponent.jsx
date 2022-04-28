@@ -22,7 +22,7 @@ const FooterComponent = () => {
 
                     <div className="footer-options">
                         <div className="footer-info">
-                            <div>
+                            <div className="footer-card">
                                 <div>
                                     <IconLocationSvg></IconLocationSvg>
                                 </div>
@@ -34,7 +34,7 @@ const FooterComponent = () => {
                             </div>
                             <div className="footer-cards">
                                 <div class="footer-card">
-                                    <div class="footer-icon">
+                                    <div>
                                         <IconPhoneSvg></IconPhoneSvg>
                                     </div>
                                     <p>
@@ -42,7 +42,7 @@ const FooterComponent = () => {
                                     </p>
                                 </div>
                                 <div class="footer-card">
-                                    <div class="footer-icon">
+                                    <div>
                                         <IconEmailSvg></IconEmailSvg>
                                     </div>
                                     <p>
