@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { ReactComponent as AccessAnywhereSvg } from '../images/icon-access-anywhere.svg';
-import { ReactComponent as StayProdPng } from '../images/illustration-stay-productive.png';
+import { ReactComponent as ArrowSvg } from '../images/icon-arrow.svg';
 import './MainComponent.css';
 
 const MainComponent = () => {
@@ -55,6 +55,22 @@ const MainComponent = () => {
                 </div>
 
                 <div className="main-advice">
+                    <div>
+                        <img src={require("../images/illustration-stay-productive.png")} alt="logo Fylo" />
+                    </div>
+                    <div className="main-advice-text">
+                        <h2>
+                            Stay productive, wherever you are
+                        </h2>
+                        <p> Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+                            storage needs.</p>
+                        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email
+                            attachments required.</p>
+                        <div>
+                            <a href="/">See how Fylo works</a>
+                            <ArrowSvg></ArrowSvg>
+                        </div>
+                    </div>
 
                 </div>
 

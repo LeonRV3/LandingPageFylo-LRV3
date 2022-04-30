@@ -18,7 +18,7 @@ const HeaderComponent = () => {
                     </ul>
                 </nav>
                 <div className="img-header">
-                    <img src={require("../images/illustration-intro.png")} alt="" />
+                    <img src={require("../images/illustration-intro.png")} alt="logo Fylo" />
                     <div>
                         <h1>All your files in one secure location, accesisble anywhere</h1>
                         <p>
