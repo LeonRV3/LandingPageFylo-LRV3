@@ -75,7 +75,17 @@ const MainComponent = () => {
                 </div>
 
                 <div className="main-opinions">
-
+                    <div className="card-opinion">
+                        <p>Fylo has improved our team productivity by
+                            an order of magnitude. Since making the
+                            switch our team has become a well-oiled
+                            collaboration machine</p>
+                        <div>
+                            <img alt="profile" src={require("../images/profile-1.jpg")}></img>
+                            <p>Satish Patel <span>Founder & CEO, Huddle</span></p>
+                        </div>
+                    </div>
+                    
                 </div>
 
             </main>

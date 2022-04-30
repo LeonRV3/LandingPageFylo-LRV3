@@ -108,3 +108,11 @@ li{
     }
     
 }
+.card-opinion{
+    width: 20rem;
+    height: 20rem;
+    background-color: aquamarine;
+}
+.card-opinion-img{
+    display: flex;
+}
