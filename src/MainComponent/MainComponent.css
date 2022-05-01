@@ -97,3 +97,54 @@ font-size: 1.3rem;
     display: block;
     font-size: .5rem;
 }
+
+/* **************************************************** */
+
+.main-started{
+    padding-top: 9rem;
+    width: 90%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main-started>div{
+    margin-bottom: -6rem;
+    max-width: 60rem;
+    max-height: 20rem;
+    height: 20rem;
+    background-color:  var(--DarkBlue3);
+    border-radius: 7px;
+    padding: 2rem;
+    text-align: center;
+}
+.main-started>div>h2{
+    font-size: 2rem;
+}
+.main-started>div>p{
+    font-size: 1.2rem;
+}
+.main-started>div>div{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 60% 30%;
+    column-gap: 3rem;
+}
+.main-started>div>div>input{
+    padding: 1rem;
+    border: 0;
+    border-radius: 25px;
+}
+.main-started>div>div>button{
+    padding: 1rem;
+    background-color: var(--Cyan);
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+
+
+
