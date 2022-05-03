@@ -76,6 +76,8 @@ const MainComponent = () => {
 
                 <div className="main-opinions">
                     <div className="card-opinion">
+                <img className="quotes-img" alt="profile" src={require("../images/bg-quotes.png")}></img>
+
                         <p>Fylo has improved our team productivity by
                             an order of magnitude. Since making the
                             switch our team has become a well-oiled
@@ -107,7 +109,6 @@ const MainComponent = () => {
                     </div>
                     
                 </div>
-
 
                 <div className="main-started">
                     <div>

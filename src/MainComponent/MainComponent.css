@@ -40,6 +40,9 @@ main{
         grid-template-columns: repeat(1, 1fr);
     }
 }
+.main-advice>div>img{
+    width: 100%;
+}
 .main-advice-text>h2{
     font-size: 4rem;
 }
@@ -60,13 +63,14 @@ main{
     grid-template-columns: repeat(3, 1fr);
     width: 90%;
     justify-items: center;
+    /* position: absolute; */
+    position: relative;
+    z-index: 1;
 }
-@media (max-width: 1080px) {
-    .main-opinions{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+
+
 .card-opinion{
+    position: relative;
     color: var(--White);
     max-width: 35rem;
     max-height: 15rem;
@@ -74,6 +78,26 @@ main{
     padding: 2rem 2rem 1rem 2rem;
     border-radius: 7px;
     margin: 1rem;
+    margin-top: 2rem;
+}
+.card-opinion:first-child{
+    position: relative;
+    /* z-index: 0; */
+}
+.quotes-img{
+    position: absolute;
+    left: -30px;
+    top: -30px;
+    /* left: 0px; */
+    z-index: -1;
+}
+@media (max-width: 1080px) {
+    .main-opinions{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quotes-img{
+        left: 270px;
+    }
 }
 .card-opinion>p{
 font-size: 1.3rem;
