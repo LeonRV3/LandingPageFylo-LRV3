@@ -96,7 +96,8 @@ main{
         grid-template-columns: repeat(1, 1fr);
     }
     .quotes-img{
-        left: 270px;
+        left: 10px;
+        top: -35px;
     }
 }
 .card-opinion>p{
@@ -136,8 +137,8 @@ font-size: 1.3rem;
 .main-started>div{
     margin-bottom: -6rem;
     max-width: 60rem;
-    max-height: 20rem;
-    height: 20rem;
+    min-height: 20rem;
+    /* height: 20rem; */
     background-color:  var(--DarkBlue3);
     border-radius: 7px;
     padding: 2rem;

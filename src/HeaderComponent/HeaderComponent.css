@@ -25,7 +25,7 @@ nav{
     width: 100%;
     padding: 0 1rem;
     
-    height: 9rem;
+    min-height: 9rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -82,7 +82,7 @@ nav{
 }
 @media (max-width: 575px) {
     .img-header>img{
-        width: 30rem;
+        width:80%;
         height: 20rem;
     }
 }
@@ -108,4 +108,7 @@ li{
         width: 90%;
     }
     
+}
+.iconMenuDesktop{
+    display: none;
 }

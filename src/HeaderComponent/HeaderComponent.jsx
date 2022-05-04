@@ -1,7 +1,7 @@
 import './HeaderComponent.css'
 import { Fragment } from "react";
 import {ReactComponent as LogoSvg} from '../images/logo.svg'; 
-
+import { Icon } from "@iconify/react";
 
 const HeaderComponent = () => {
     return (
@@ -15,6 +15,7 @@ const HeaderComponent = () => {
                         <li>Features</li>
                         <li>Team</li>
                         <li>Sign in</li>
+                        <Icon className='iconMenuDesktop' icon="dashicons:menu"></Icon>
                     </ul>
                 </nav>
                 <div className="img-header">
