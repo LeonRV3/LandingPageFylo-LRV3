@@ -1,5 +1,8 @@
 import { Fragment } from "react";
 import { ReactComponent as AccessAnywhereSvg } from '../images/icon-access-anywhere.svg';
+import { ReactComponent as SecuritySvg } from '../images/icon-security.svg';
+import { ReactComponent as CollaborationSvg } from '../images/icon-collaboration.svg';
+import { ReactComponent as AnyFileSvg } from '../images/icon-any-file.svg';
 import { ReactComponent as ArrowSvg } from '../images/icon-arrow.svg';
 import './MainComponent.css';
 
@@ -23,7 +26,7 @@ const MainComponent = () => {
                         </p>
                     </div>
                     <div>
-                        <AccessAnywhereSvg></AccessAnywhereSvg>
+                        <SecuritySvg></SecuritySvg>
                         <h2>
                             Access your files, anywhere
                         </h2>
@@ -33,7 +36,7 @@ const MainComponent = () => {
                         </p>
                     </div>
                     <div>
-                        <AccessAnywhereSvg></AccessAnywhereSvg>
+                        <CollaborationSvg></CollaborationSvg>
                         <h2>
                             Access your files, anywhere
                         </h2>
@@ -43,7 +46,7 @@ const MainComponent = () => {
                         </p>
                     </div>
                     <div>
-                        <AccessAnywhereSvg></AccessAnywhereSvg>
+                        <AnyFileSvg></AnyFileSvg>
                         <h2>
                             Access your files, anywhere
                         </h2>
@@ -93,7 +96,7 @@ const MainComponent = () => {
                             switch our team has become a well-oiled
                             collaboration machine</p>
                         <div className="card-opinion-img">
-                            <img alt="profile" src={require("../images/profile-1.jpg")}></img>
+                            <img alt="profile" src={require("../images/profile-2.jpg")}></img>
                             <p>Satish Patel <span>Founder & CEO, Huddle</span></p>
                         </div>
                     </div>
@@ -103,7 +106,7 @@ const MainComponent = () => {
                             switch our team has become a well-oiled
                             collaboration machine</p>
                         <div className="card-opinion-img">
-                            <img alt="profile" src={require("../images/profile-1.jpg")}></img>
+                            <img alt="profile" src={require("../images/profile-3.jpg")}></img>
                             <p>Satish Patel <span>Founder & CEO, Huddle</span></p>
                         </div>
                     </div>
