@@ -38,7 +38,7 @@ const FooterComponent = () => {
                                         <IconPhoneSvg></IconPhoneSvg>
                                     </div>
                                     <p>
-                                        Lorem ipsum dolor
+                                        +1-543-123-4567
                                     </p>
                                 </div>
                                 <div class="footer-card">
@@ -46,7 +46,7 @@ const FooterComponent = () => {
                                         <IconEmailSvg></IconEmailSvg>
                                     </div>
                                     <p>
-                                        Lorem ipsum dolor
+                                        example@fylo.com
                                     </p>
                                 </div>
                             </div>
