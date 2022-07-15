@@ -11,6 +11,15 @@ const HeaderComponent = () => {
         setMenuHam(true);
     }
 
+    function HideScrollbar() {
+        var style = document.createElement("style");
+        style.innerHTML = `body::-webkit-scrollbar {display: none;}`;
+        document.head.appendChild(style);
+
+        return <p>Opcion Menu</p>
+        
+      }
+
     return (
         <Fragment>
             <header>
@@ -38,7 +47,7 @@ const HeaderComponent = () => {
                     <button>Get Started</button>
                 </div>
             </div> :
-            <p>Otro menu</p>
+            HideScrollbar()
                 }
             </header>
         </Fragment>
